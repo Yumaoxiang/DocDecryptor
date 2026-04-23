@@ -15,5 +15,6 @@ git push
 
 
 
-# 解密时桌面新建一个空文件夹
-git clone https://github.com/Yumaoxiang/DocDecryptor.git
+# 解密时必须在相同文件夹
+git fetch origin
+git reset --hard origin/main
